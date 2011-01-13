@@ -1,0 +1,54 @@
+.q  { color: #ffd100 !important }
+.q0, .q0 a { color: #9d9d9d !important }
+.q1, .q1 a { color: #ffffff !important }
+.q2, .q2 a { color: #1eff00 !important }
+.q3, .q3 a { color: #0070dd !important }
+.q4, .q4 a { color: #a335ee !important }
+.q5, .q5 a { color: #ff8000 !important }
+.q6, .q6 a { color: #e5cc80 !important }
+.q7, .q7 a { color: #e5cc80 !important }
+.q8, .q8 a { color: #ffff98 !important }
+.q9, .q9 a { color: #71D5FF !important }
+.q10, .q10 a { color: #ffd100 !important }
+.fap, .fap  a { color: #ff7c0a !important }
+.tooltip b { font-size: 14px; font-weight: normal; line-height:19px; }
+.tooltip a { text-decoration: none }
+.tooltip a:hover { text-decoration: underline }
+.tooltip table { border-spacing: 0; border-collapse: collapse;}
+
+.tooltip td, .tooltip th { background: url(../images/tooltip.png); font-family: Verdana, sans-serif; font-size: 12px; line-height: 17px; color: white;}
+.tooltip th { padding: 3px }
+.tooltip td { padding: 8px 4px 1px 9px; max-width: 400px; min-width: 250px;}
+
+.tooltip b { font-size: 14px; line-height: 19px; font-weight: normal }
+.tooltip div.indent { padding-left: 0.6em }
+
+.tooltip td th, .tooltip td td { background: none }
+.tooltip td th { padding: 0 0 0 4em; text-align: right; font-weight: normal }
+.tooltip td td { padding: 0 }
+
+.tooltip table.shrink b { font-size: 12px; line-height: 15px }
+.tooltip table.shrink td, .tooltip table.shrink th { font-size: 10px; line-height: 14px }
+
+.socket-meta   { padding-left: 26px; background: url(../images/socket_meta.gif) no-repeat left center }
+.socket-red    { padding-left: 26px; background: url(../images/socket_red.gif) no-repeat left center }
+.socket-yellow { padding-left: 26px; background: url(../images/socket_yellow.gif) no-repeat left center }
+.socket-blue   { padding-left: 26px; background: url(../images/socket_blue.gif) no-repeat left center }
+.socket-prismatic  { padding-left: 26px; background: url(../images/socket_empty.gif) no-repeat left center }
+.socket-hydraulic  { padding-left: 26px; background: url(../images/socket_hydraulic.gif) no-repeat left center }
+.socket-cogwheel  { padding-left: 26px; background: url(../images/socket_cogwheel.gif) no-repeat left center }
+
+.moneygold{background:no-repeat right center;color:white; padding-right:15px;background-image:url(../images/money-gold.gif);}
+.moneysilver{background:no-repeat right center;color:white; padding-right:15px;background-image:url(../images/money-silver.gif);}
+.moneycopper{background:no-repeat right center;color:white; padding-right:15px;background-image:url(../images/money-copper.gif);}
+
+.class-dk, .class-dk a { color: #c41f3b !important }
+.class-druid, .class-druid a { color: #ff7d0a !important }
+.class-hunter, .class-hunter a { color: #abd473 !important }
+.class-mage, .class-mage a { color: #69ccf0 !important }
+.class-paladin, .class-paladin a { color: #f58cba !important }
+.class-priest, .class-priest a { color: #ffffff !important }
+.class-rogue, .class-rogue a { color: #fff569 !important }
+.class-shaman, .class-shaman a { color: #0070de !important }
+.class-warlock, .class-warlock a { color: #9482c9 !important }
+.class-warrior, .class-warrior a { color: #c79c6e !important }
