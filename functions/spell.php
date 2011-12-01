@@ -85,4 +85,23 @@ function ParseSpell2($trigger)
 			break;
 	}
 }
+
+function GetGlyphType($spellid)
+{
+	mysql_connect(host,user,password);
+	@mysql_select_db(database2) or die("Unable to select database");
+	$entry = mysql_real_escape_string($spellid);
+	$q2 = "SELECT * FROM spelltext_".lang." WHERE spellId = $entry";
+	$re = mysql_query($q2);
+	if($re)
+		$rp = mysql_fetch_array($re);
+	if($rp)
+		$type = utf8_encode($rp['glyphType']);
+	include("locales/".lang.".php");
+	if ($type == 0)
+		return "<span class='q9'>$locale[glyphmajor]</span><br />";
+	if ($type == 1)
+		return "<span class='q9'>$locale[glyphminor]</span><br />";
+	return "<span class='q9'>$locale[glyph]</span><br />";
+}
 ?>

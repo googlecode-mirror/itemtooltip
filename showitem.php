@@ -176,7 +176,8 @@ echo "<b class='q$q' style='font-size: 15px'>$name</b>";
 if(debug) echo "&nbsp;&nbsp;(entry: $entry)";
 echo "<br />";
 if(in_array($flag, array(8, 4104))) echo "<span class='q2'>$locale[heroic]</span><br />";
-if($class == 16) echo "<span class='q9'>$locale[glyph]</span><br />";
+if($class == 16)
+	GetGlyphType($sp1);
 if(debug)
 	echo "bonding: $bind quality: $q flag: $flag (->".implode(', ', GetFlag($flag)).") <br />";
 if($q == 7)
