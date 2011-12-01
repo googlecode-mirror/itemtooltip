@@ -175,7 +175,9 @@ $locale = array(
 'quest'			=> "Quest Item",
 'acc'			=> "Binds to account",
 //glyph
-'glyph'			=> "Glyphe",
+'glyph'			=> "Glyph",
+'glyphmajor'	=> "Major Glyph",
+'glyphminor'	=> "Minor Glyph",
 //unique
 'unique'		=> "Unique",
 'uniqueeq'		=> "Unique-Equipped",

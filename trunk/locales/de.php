@@ -169,6 +169,8 @@ $locale = array(
 'read'			=> "Zum Lesen Rechtsklicken",
 //glyph
 'glyph'			=> "Glyphe",
+'glyphmajor'	=> "Große Glyph",
+'glyphminor'	=> "Geringe Glyph",
 //binds
 'pick'			=> "Wird beim Aufheben gebunden",
 'equiped'		=> "Wird beim Anlegen gebunden",
